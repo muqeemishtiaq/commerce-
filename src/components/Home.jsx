@@ -29,7 +29,7 @@ const Home = ({ setProductId }) => {
                   className="mt-2 bg-blue-500 text-white text-xs px-3 py-1 rounded hover:bg-blue-600 cursor-pointer"
                   onClick={() => {
                     setProductId(product.id);
-                    toast.success('Product Added to Cart');
+                    toast.success('Product');
                   }}
                 >
                   Add to Cart
