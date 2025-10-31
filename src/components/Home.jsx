@@ -26,7 +26,7 @@ const Home = ({ setProductId }) => {
                 <p className="text-sm font-bold text-gray-800">Price: ${product.price}</p>
                 <p className="text-xs text-gray-500">Color: {product.color}</p>
                 <button
-                  className="mt-2 bg-blue-500 text-white text-xs px-3 py-1 rounded hover:bg-blue-600 cursor-pointer"
+                  className="mt-2 bg-green-500 text-white text-xs px-3 py-1 rounded hover:bg-blue-600 cursor-pointer"
                   onClick={() => {
                     setProductId(product.id);
                     toast.success('Product');
