@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = ({ cartCount }) => {
   return (
     <div>
-      <div className="p-5 bg-green-500 text-white flex justify-between items-center">
+      <div className="p-5 bg-yellow-500 text-white flex justify-between items-center">
         <ul className="flex gap-8 text-xl">
           <NavLink to="/" className="cursor-pointer">
             Home
